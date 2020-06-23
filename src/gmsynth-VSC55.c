@@ -562,17 +562,31 @@ mn_file (LV2_Handle instance)
 	pf ("       <Control Type=\"7bit\" Number=\"1\" Name=\"Modulation\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"2\" Name=\"Breath\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"5\" Name=\"Portamento Time\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"6\" Name=\"Data Entry MSB (RPN/NRPN)\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"7\" Name=\"Channel Volume\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"8\" Name=\"Stereo Balance\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"10\" Name=\"Pan\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"11\" Name=\"Expression\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"37\" Name=\"Portamento Time (Fine)\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"38\" Name=\"Data Entry LSB (RPN/NRPN)\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"64\" Name=\"Sustain On/Off\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"65\" Name=\"Portamento On/Off\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"66\" Name=\"Sostenuto On/Off\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"68\" Name=\"Legato On/Off\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"71\" Name=\"Timbre (Resonance)\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"72\" Name=\"Release Time\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"73\" Name=\"Attack Time\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"74\" Name=\"Brightness\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"75\" Name=\"Decay\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"79\" Name=\"Sustain\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"91\" Name=\"Reverb\"/>\n");
 	pf ("       <Control Type=\"7bit\" Number=\"93\" Name=\"Chorus\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"96\" Name=\"Data Increment\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"97\" Name=\"Data Decrement\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"98\" Name=\"NRPN LSB\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"99\" Name=\"NRPN MSB\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"100\" Name=\"RPN LSB\"/>\n");
+	pf ("       <Control Type=\"7bit\" Number=\"101\" Name=\"RPN MSB\"/>\n");
 	pf ("    </ControlNameList>\n");
 
 	pf (

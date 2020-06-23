@@ -23,7 +23,7 @@
 <http://gareus.org/oss/lv2/@LV2NAME@>
   a doap:Project, lv2:InstrumentPlugin, lv2:Plugin ;
 
-  doap:name "gmsynth (VSC55)" ;
+  doap:name "General MIDI Synth (VSC55)" ;
 
   doap:maintainer <http://gareus.org/rgareus#me>;
   doap:license <http://usefulinc.com/doap/licenses/gpl> ;
